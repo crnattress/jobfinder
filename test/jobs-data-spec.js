@@ -27,9 +27,9 @@ describe("get jobs", function () {
             });
     });
     
-   it("should never be empty since jobs are seeded", function() {
-        expect(jobs.length).to.be.at.least(1);
-   });
+   // it("should never be empty since jobs are seeded", function() {
+   //        expect(jobs.length).to.be.at.least(1);
+   // });
    
    // it("should have a job with a title", function() {
    //        expect(jobs[0].title).to.not.be.empty;
